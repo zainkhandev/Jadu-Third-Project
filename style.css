@@ -1,0 +1,22 @@
+html,body
+{
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+}
+.menu
+{
+    background-color: lightgray;
+    color: white;
+}
+.menu-ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu-ul li
+{
+    text-decoration: none;
+    color: darkgreen;
+}
