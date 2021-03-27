@@ -1,0 +1,58 @@
+html,body
+{
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+}
+.navbar
+{
+    background-color: lightgray;
+}
+.menu-ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto";
+    font-weight:500;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+.menu-ul li a
+{
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.slider1 img
+{
+    width: 100%;
+}
+.slider2 img
+{
+    width: 100%;
+}
+.main-body
+{
+    background-color: limegreen;
+    width: 82%;
+    margin: 0px auto;
+}
+.main-text
+{
+    font-family: "roboto";
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px 10%;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 28px;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+}
