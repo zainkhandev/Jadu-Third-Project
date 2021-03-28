@@ -1,18 +1,5 @@
-$(".slider").owlCarousel({
-    loop: true,
-    nav: false,
-    dots: false,
-    autoplay: true,
-    smartSpeed: 1000,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1000: {
-        items: 1
-      }
-    }
-  });
+let mobileMenu = document.querySelector(".mobile-menu");
+let mobileNav = document.querySelector(".nav");
+mobileMenu.addEventListener("click", () => {
+  mobileNav.classList.toggle("show");
+});
