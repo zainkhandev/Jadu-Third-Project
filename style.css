@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI";
+  font-family: roboto;
   box-sizing: border-box;
 }
 
@@ -15,10 +15,6 @@ body {
 /* 
 ////////////////// {{ Header  }}///////////////////
 */
-
-header {
-  background-color: black;
-}
 .slider {
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +74,7 @@ nav {
   color: #fff;
   width: 100%;
   height: 91vh;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-content {
@@ -150,69 +146,69 @@ nav {
 /* 
 ////////////////// {{ Main  }}///////////////////
 */
-
-<<<<<<< HEAD
 main {
-  background-color:lime;
-  width: 82%;
-  margin: 0px auto;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3em;
 }
-.main-text
-{
-  background-color: lightgray;
-  height: 200px;
-  margin: 50px 0px;
-}
-.main-text-p
-{
-  font-weight: 500;
-  font-size: 30px;
-  padding: 50px 100px;
+
+.main-section-heading {
+  font-size: 2em;
   text-align: center;
-}
-.grid1
-{
-  display: grid;
-  grid-template-columns: repeat(3, 350px);
-  
-  grid-gap: 30px 28px;
-}
-.grid-section4
-{
-  grid-column: 1 / span 2;
-}
-.grid-color
-{
-  background-color: lightgray;
-}
-.grid-color div
-{
-  margin: 30px;
-}
-.grid-color  .p1
-{
-  margin: 10px 0px; 
-  font-size: 16px;
-}
-.grid-color .p2
-{
-  font-weight: 500;
-  margin: 10px 0px;
-  font-size: 20px;
-}
-.grid-color .p3
-{
-  margin: 30px 0px;
-  font-size: 16px;
-  line-height: 25px;
+  font-family: "poppins";
+  font-weight: bold;
 }
 
+.main-section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
 
+.main-section-profile div {
+  width: 30%;
+  text-align: left;
+  margin-top: 10%;
+}
 
+.profile-title {
+  font-weight: 100;
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+.profile-title-2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
+.profile-p {
+  line-height: 2;
+}
+.profile-dev {
+  background-color: whitesmoke;
+  padding: 2em;
+}
 
-=======
->>>>>>> d3a58277e480af538b1348d1dd7fb5ba025a3e85
+.profile-dev:nth-child(3) {
+  padding: unset;
+}
+
+.responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
 /* 
 ////////////////// {{ Mobile Responsiveness  }}///////////////////
 */
@@ -280,5 +276,15 @@ main {
   }
   .show {
     display: block !important;
+  }
+  .main-section-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-section-profile div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
   }
 }
