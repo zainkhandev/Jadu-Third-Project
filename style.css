@@ -15,6 +15,10 @@ body {
 /* 
 ////////////////// {{ Header  }}///////////////////
 */
+
+header {
+  background-color: black;
+}
 .slider {
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,6 +151,7 @@ nav {
 ////////////////// {{ Main  }}///////////////////
 */
 
+<<<<<<< HEAD
 main {
   background-color:lime;
   width: 82%;
@@ -206,6 +211,8 @@ main {
 
 
 
+=======
+>>>>>>> d3a58277e480af538b1348d1dd7fb5ba025a3e85
 /* 
 ////////////////// {{ Mobile Responsiveness  }}///////////////////
 */
