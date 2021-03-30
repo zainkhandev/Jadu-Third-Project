@@ -496,7 +496,7 @@ hr {
   .list {
     background-color: #fff;
     height: max-content;
-
+    padding: 2em;
     width: 100%;
     grid-row: 3/4 impo !important;
   }
