@@ -47,3 +47,27 @@ if (signinSubmit) {
     }
   });
 }
+let sec = document.querySelector(".sec");
+let day = document.querySelector(".days");
+let hour = document.querySelector(".hours");
+let min = document.querySelector(".mins");
+const startingDay = 21;
+let startingsecs = startingDay * 24 * 60 * 60;
+const updatetime = () => {
+  let days = Math.floor(startingsecs / 60 / 60 / 24);
+  let hours = Math.floor((startingsecs % (24 * 3600)) / 3600);
+  let mins = Math.floor((startingsecs % 3600) / 60);
+  let secs = startingsecs % 60;
+  secs = secs < 10 ? "0" + secs : secs;
+  mins = mins < 10 ? "0" + mins : mins;
+  hours = hours < 10 ? "0" + hours : hours;
+  days = days < 10 ? "0" + days : days;
+
+  sec.textContent = `${secs}`;
+  min.textContent = `${mins}`;
+  day.textContent = `${days}`;
+  hour.textContent = `${hours}`;
+  startingsecs--;
+};
+
+setInterval(updatetime, 1000);
