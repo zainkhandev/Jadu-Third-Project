@@ -55,6 +55,11 @@ This Project is created by
 2. [Shahid Yousafxai](https://github.com/ShahidYousafxai)
    - [LinkedIn](https://www.linkedin.com/in/ShahidYousafxai/)
    - [Medium](https://shahidyousafxai.medium.com/)
+<br>
+
+3. [Muhammad Zain Khan](https://github.com/zainkhandev)
+	- [LinkedIn](https://www.linkedin.com/in/zainkhandev/)
+
 
 ### Project Pictures
 
