@@ -133,7 +133,7 @@ nav {
   padding: 1em;
   outline: none;
 }
-.main-content .form input[type="submit"] {
+.main-content .form button {
   color: rgb(255, 188, 19);
   width: 300px;
   height: 40px;
@@ -514,4 +514,8 @@ hr {
     text-align: center;
     margin: 0.3em;
   }
+  /* .main-content .form button {
+    width: 90% !important;
+    margin: 0 auto;
+  } */
 }
